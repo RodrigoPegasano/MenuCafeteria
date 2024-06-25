@@ -1,0 +1,118 @@
+/* Practicando CSS en https://www.freecodecamp.org/espanol/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-1 */
+/* Creando menú de cafetería */
+
+/* BODY */
+
+/* background-image = Agrega imagen al fondo de toda la página */
+/* font-family = Cambia el tipo de la letra */
+/* padding = Espacio empujado por un elemento desde su borde hacia adentro */
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+/* font-size = Tamaño de la fuente */
+/* margin = Espacio empujado por un elemento desde su borde hacia afuera */
+h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+
+h1, h2 {
+    font-family: Impact, serif;
+}
+
+/* text-align = Alinea el texto adonde queremos, por ejemplo, centro de la página */
+h1, h2, p {
+    text-align: center;
+}
+
+/* background-color = Cambia el color del fondo */
+/* border-color = Cambia el color de los bordes */
+/* height= Cambia la altura */
+hr {
+    background-color: brown;
+    border-color: brown;
+    height: 2px;
+}
+
+/* display = Determina como se muestran los elementos en la web */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+
+/* max-width = Determina ancho máximo de un elemento */
+.menu {
+    background-color: burlywood;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+/* width = Cambia el ancho */
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+/* font-style = Cambia el estilo del texto */
+.established {
+    font-style: italic;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 14px;
+}
+
+/* Cambia el color del texto */
+a {
+    color: black;
+}
+
+/* :visited = Este parámetro dice "Cuando el usuario hace clic en el enlace, quiero que el texto cambie a color..." */
+a:visited {
+    color: black;
+}
+
+/* :hover = Este parámetro dice "Cuando el usuario pase el mouse arriba del enlace, quiero que el texto cambie a color..." */
+a:hover {
+    color: brown;
+}
+
+/* :ctive = Este parámetro dice "En el momento en que estoy haciendo clic en el enlace, quiero que el texto cambie a color..." */
+a:active {
+    color: brown;
+}
+
+.address {
+    margin-bottom: 5px;
+  }
